@@ -30,13 +30,15 @@
             background-color: #000;
             color: #fff;
             border: 2px solid #fff;
-            margin: 10px;
+            margin: 0px;
 			width: 26em;
+			max-width: 95%;
         }
 
         #message {
             font-size: 24px;
             color: green; /* Default color is green */
+			line-height: 1.3em;
         }
 
         #message.failure {
@@ -110,7 +112,7 @@
 		  /* Define different colors for each letter */
   .red { color: red; }
   .green { color: green; }
-  .blue { color: royalblue; }
+  .blue { color: blue; }
   .orange { color: orange; }
   .purple { color: darkviolet; }
   .pink { color: pink; }
@@ -123,22 +125,23 @@
     </style>
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
 </head>
-<body>
-	<h1>
-    <span class="red">A</span>
-    <span class="green">l</span>
-    <span class="blue">p</span>
-    <span class="orange">h</span>
-    <span class="purple">a</span>
-    <span class="pink">b</span>
-    <span class="teal">e</span>
-    <span class="red">t</span>
-    <span class="green">&nbsp;</span>
-    <span class="blue">S</span>
-    <span class="orange">o</span>
-    <span class="purple">u</span>
-    <span class="pink">p</span>
+  <h1>
+  <font color="red">A</font>
+  <font color="green">l</font>
+  <font color="blue">p</font>
+  <font color="orange">h</font>
+  <font color="purple">a</font>
+  <font color="pink">b</font>
+  <font color="teal">e</font>
+  <font color="red">t</font>
   </h1>
+  <h1>
+  <font color="green">S</font>
+  <font color="blue">o</font>
+  <font color="orange">u</font>
+  <font color="purple">p</font>
+  </h1>
+
     <p>Type the alphabet in order:</p>
     <input type="text" id="input" autocomplete="off">
     <p id="message"></p>
